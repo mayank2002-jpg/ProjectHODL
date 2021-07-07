@@ -3,9 +3,10 @@ body {
     
 }
 .logo{
-    width: auto;
-    height: auto;
+    width: 500px;
+    height: 500px;
     max-width: 100%;
+    margin-top:30px;
    
 }
 .intro {
@@ -81,6 +82,13 @@ body {
         text-align:center; 
         padding-bottom:10px; 
         height:100%; width:220px; 
+    }
+}
+@media only screen and (min-width: 350px) and (max-width:550px){
+    .logo{
+        width:250px;
+        height:250px;
+        margin-top: 30px;
     }
 }
     
