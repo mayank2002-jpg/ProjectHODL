@@ -67,7 +67,7 @@ body {
 .fade-in-text {
     display: inline-block;
     font-family: "roboto";
-    font-size: 15px;
+    font-size: 1rem;
     color: black;
     animation: fadeIn linear 3s;
     -webkit-animation: fadeIn linear 3s;
@@ -103,7 +103,7 @@ body {
 
 .intro h1{
     font-family:"montserrat";
-    font-size: 35px;
+    font-size: 1rempx;
     text-align: center;
 }
 
@@ -149,7 +149,6 @@ body {
     width: auto;
     height: auto;
     max-width: 100%;
-    margin-bottom: -12px;
 }
 footer h2{
     color: rgb(255, 255, 255);
@@ -165,6 +164,7 @@ footer h2{
     flex-wrap: wrap;
     row-gap: 10px;
     column-gap: 2em 2em;
+    background-color: rgb(56, 56, 56);
 }
   
   #footer > * {
@@ -180,32 +180,19 @@ flex: 1; }
 }
 .btn{
     padding: 6px 10px;
-    border: 2px solid blue;
-    background-color: blue;
-    margin: 10px;
+    border: 10px solid rgb(7, 7, 202);
+    background-color:  rgb(7, 7, 202);
+    margin: 0;
     font-size: 1rem;
     border-radius: 10px;
-    cursor:pointer
-    
+    cursor:pointer    
 }
 .btn a{
     text-decoration: none;
     color: white;
 }
 
-.icon-btn{
-    margin: 5px 10px;
-    padding: 2px 2px;
-    border: 2px solid black;
-    cursor: pointer;
-    font-size: 26px;
-    background-color: black;
-    border-radius: 30px;
-}
-.icon-btn a{
-    text-decoration: none;
-    color: white;
-}
+
 @media only screen and (min-width:50px) and (max-width:300px){
     .intro{
         text-align:center; 
@@ -234,6 +221,9 @@ flex: 1; }
     }
     .intro{
         margin-left: 1oopx;
+    }
+    .footer{
+        margin-bottom: -15px;
     }
 }
 @media only screen and (min-width: 300px) and (max-width:308px){
@@ -304,6 +294,11 @@ flex: 1; }
 font-size: 24px;
    }
 }
+.copyright {
+    text-align: center;
+    color: white;
+    font-family:sans-serif;
+    font-size: .85rem;
+}
+
     
-  
-   
