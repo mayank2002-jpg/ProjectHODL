@@ -1,4 +1,4 @@
-# ProjectHODL (coming soon)
+# ProjectHODL 
 Personal Finance For Students
 
 ![ProjectHODL](hodlpreview.jpg)
