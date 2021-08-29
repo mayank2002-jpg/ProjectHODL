@@ -1,5 +1,5 @@
-# ProjectHODL 
-Personal Finance For Students
+# Project HODL 
+## Personal Finance For Students
 
 ![ProjectHODL](hodlpreview.jpg)
 
