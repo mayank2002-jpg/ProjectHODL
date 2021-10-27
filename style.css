@@ -67,6 +67,27 @@ body {
   }
 }
 
+=======
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @-o-keyframes fadeIn {
   0% {
     opacity: 0;
@@ -94,8 +115,11 @@ body {
   margin-left: 5%;
   margin-right: 5%;
 
+
   position: relative;
   z-index: 999;
+=======
+
 }
 
 .fade-in-text {
