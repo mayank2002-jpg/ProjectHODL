@@ -1,6 +1,6 @@
 # Project Hold On (for) Dear Life 💎🙌
 
-## Personal Finance For Students
+## Personal Finance 
 
 ![ProjectHODL](hodlpreview.jpg)
 
