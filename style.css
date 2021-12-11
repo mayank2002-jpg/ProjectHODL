@@ -221,6 +221,19 @@ body {
   max-width: 100%;
 }
 
+.bonus{
+      color: rgb(124, 124, 124);
+  }
+
+  span{
+    color: #000000;
+    font-weight: 600;
+  }
+
+  .bonus li{
+    color: rgb(124, 124, 124);
+  }
+
 .footer {
   width: auto;
   height: auto;
